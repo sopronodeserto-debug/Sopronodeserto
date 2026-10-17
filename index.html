@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#14251e">
+<meta name="description" content="App-book interativo Sopro no Deserto: estudo bíblico, pesquisa teológica e gavetas de aprofundamento.">
+<title>Sopro no Deserto | App-book Teológico</title>
+<style>
+:root{--bg:#f5f3ed;--paper:#fffdf8;--ink:#202821;--muted:#667168;--green:#173d30;--green2:#245843;--gold:#b58b45;--line:#dddcd2;--soft:#e9eee8;--shadow:0 10px 30px #16251a12}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}button,input,select,textarea{font:inherit}button{cursor:pointer}.shell{max-width:1120px;margin:auto;padding:0 18px}.hero{background:linear-gradient(135deg,#10291f,#245843);color:#fff;padding:34px 0 28px}.brand{font-size:.78rem;letter-spacing:.17em;text-transform:uppercase;color:#e5d1a7;font-weight:800}.hero h1{font-family:Georgia,serif;font-size:clamp(2rem,6vw,3.6rem);line-height:1.08;margin:.45rem 0}.hero p{max-width:760px;color:#e1e9e2;margin:.5rem 0 0}.tag{display:inline-block;border:1px solid #ffffff40;border-radius:99px;padding:4px 10px;font-size:.78rem;margin:14px 6px 0 0}.layout{display:grid;grid-template-columns:260px minmax(0,1fr);gap:22px;padding-top:22px;padding-bottom:60px}.panel,.card{background:var(--paper);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow)}.panel{padding:16px;height:max-content;position:sticky;top:12px}.panel h2,.card h2{margin:.1rem 0 .65rem;font-size:1.08rem}.navbtn{display:block;width:100%;text-align:left;border:0;border-radius:10px;padding:10px 12px;background:transparent;color:var(--ink);margin:3px 0}.navbtn:hover,.navbtn.active{background:var(--soft);color:var(--green);font-weight:700}.main{min-width:0}.card{padding:clamp(17px,3vw,28px);margin-bottom:18px}.eyebrow{font-size:.76rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--green2)}h2,h3{line-height:1.25}h2{font-family:Georgia,serif;font-size:1.65rem}h3{font-size:1.12rem;margin:1.2rem 0 .35rem}.muted{color:var(--muted)}.notice{background:#f7f0df;border-left:4px solid var(--gold);padding:12px 14px;border-radius:8px;font-size:.92rem}.searchbox{display:flex;gap:8px;flex-wrap:wrap}.searchbox input{flex:1;min-width:180px}.field{width:100%;border:1px solid #c9cec7;border-radius:10px;padding:11px 12px;background:#fff;color:var(--ink)}.searchbox .field{width:auto}.btn{display:inline-block;text-decoration:none;border:0;border-radius:10px;padding:10px 15px;background:var(--green);color:white;font-weight:700}.btn.secondary{background:var(--soft);color:var(--green)}.btn.gold{background:var(--gold);color:#fff}.btn:disabled{opacity:.45;cursor:not-allowed}.chips{display:flex;flex-wrap:wrap;gap:7px;margin:12px 0}.chip{border:1px solid var(--line);background:white;border-radius:99px;padding:6px 10px;font-size:.84rem}.chip[aria-pressed=true]{background:var(--green);color:#fff;border-color:var(--green)}.result{border:1px solid var(--line);border-radius:12px;padding:14px;margin:10px 0;background:#fff}.result h3{margin:0 0 5px}.drawer{border:1px solid var(--line);border-radius:12px;margin:10px 0;background:#fff;overflow:hidden}.drawer summary{list-style:none;padding:13px 15px;cursor:pointer;font-weight:750;display:flex;justify-content:space-between;gap:10px}.drawer summary::-webkit-details-marker{display:none}.drawer summary:after{content:"";color:var(--green)}.drawer[open] summary:after{content:""}.drawer .inside{padding:0 15px 16px}.two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.small{font-size:.88rem}.footer{padding:24px 0 40px;color:var(--muted);font-size:.88rem;border-top:1px solid var(--line)}.status{padding:10px 12px;border-radius:10px;background:var(--soft);font-size:.9rem;white-space:pre-wrap}.status.error{background:#f8e7e4;color:#7a2920}.status.good{background:#e4f2e6;color:#1c5930}.hidden{display:none!important}code{background:#edf0eb;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}a{color:var(--green2)}.source-list li{margin:.5rem 0}@media(max-width:760px){.layout{grid-template-columns:1fr}.panel{position:static}.navlinks{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.two{grid-template-columns:1fr}.hero{padding-top:26px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header class="hero"><div class="shell">
+  <div class="brand">Sopro no Deserto · Biblioteca de Estudos</div>
+  <h1>App-book Teológico</h1>
+  <p>Um espaço interativo para leitura bíblica, aprofundamento teológico, pesquisa de fontes e preparação de aulas. Organize a revista por lições e acrescente comentários sem confundir o conteúdo original com o material complementar.</p>
+  <div style="margin-top: 15px;">
+    <a href="https://drive.google.com/file/d/1OYgGLSMWLJ2idGiSomYga3jzWkxe17LO/view?usp=drivesdk" target="_blank" class="btn gold"> Baixar / Abrir E-book Completo (88 MB)</a>
+  </div>
+  <span class="tag">Leitura responsiva</span><span class="tag">Gavetas interativas</span><span class="tag">Pesquisa local</span><span class="tag">Integração externa configurável</span>
+</div></header>
+<div class="shell layout">
+  <aside class="panel">
+    <h2>Navegação</h2>
+    <div class="navlinks">
+      <button class="navbtn active" data-target="pesquisa"> Pesquisa teológica</button>
+      <button class="navbtn" data-target="revista"> Revista e lições</button>
+      <button class="navbtn" data-target="gavetas"> Gavetas de estudo</button>
+      <button class="navbtn" data-target="fontes"> Fontes e rigor</button>
+      <button class="navbtn" data-target="config"> Configuração</button>
+    </div>
+    <hr style="border:0;border-top:1px solid var(--line);margin:16px 0">
+    <p class="small muted">Este arquivo é a interface do app-book. Pesquisa web e respostas por IA exigem um serviço externo configurado.</p>
+  </aside>
+  <main class="main">
+    <section id="pesquisa" class="card">
+      <div class="eyebrow">Motor de busca integrado</div>
+      <h2>Biblioteca Teológica Inteligente</h2>
+      <p>Pesquise no conteúdo inserido neste app-book. Para respostas de IA e pesquisa na internet, configure um endpoint seguro no backend.</p>
+      <form id="searchForm">
+        <label for="query"><strong>Sua pergunta</strong></label>
+        <textarea id="query" class="field" rows="3" placeholder="Ex.: O que sabemos sobre a formação do cânon bíblico?"></textarea>
+        <div class="chips" id="categoryChips">
+          <button class="chip" type="button" data-category="Tudo" aria-pressed="true">Tudo</button>
+          <button class="chip" type="button" data-category="Bíblia e idiomas originais" aria-pressed="false">Bíblia e idiomas originais</button>
+          <button class="chip" type="button" data-category="História da Igreja e cânon" aria-pressed="false">História e cânon</button>
+          <button class="chip" type="button" data-category="Teologia sistemática" aria-pressed="false">Teologia sistemática</button>
+          <button class="chip" type="button" data-category="Livros e fontes acadêmicas" aria-pressed="false">Fontes acadêmicas</button>
+          <button class="chip" type="button" data-category="Aplicação e ensino" aria-pressed="false">Aplicação e ensino</button>
+        </div>
+        <div class="two">
+          <div><label for="depth"><strong>Profundidade</strong></label><select id="depth" class="field"><option>Resposta direta</option><option selected>Estudo aprofundado</option><option>Acadêmica, exegética e comparativa</option></select></div>
+          <div><label for="mode"><strong>Onde pesquisar</strong></label><select id="mode" class="field"><option value="local">Biblioteca deste app-book</option><option value="external">Serviço externo configurado</option><option value="both">Biblioteca + serviço externo</option></select></div>
+        </div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:12px"><button class="btn" type="submit">Pesquisar</button><button class="btn secondary" type="button" id="clearSearch">Limpar</button></div>
+      </form>
+      <div id="searchStatus" class="status hidden" role="status" aria-live="polite" style="margin-top:14px"></div>
+      <div id="results" aria-live="polite"></div>
+      <details class="drawer"><summary>Como funciona a pesquisa externa?</summary><div class="inside"><p>O HTML não pesquisa automaticamente toda a internet nem gera respostas de IA por conta própria. Para ativar esse recurso, configure abaixo a URL de um backend que consulta fontes permitidas e um modelo de IA. A chave secreta deve ficar no servidor, nunca no navegador.</p><p>Sem endpoint, a busca local funciona sobre o conteúdo cadastrado neste arquivo.</p></div></details>
+    </section>
+
+    <section id="revista" class="card">
+      <div class="eyebrow">Conteúdo editorial</div><h2>Revista e lições</h2>
+      <p>Acesse o e-book/revista completo diretamente ou navegue pela estrutura abaixo.</p>
+      <div style="margin: 15px 0;">
+        <a href="https://drive.google.com/file/d/1OYgGLSMWLJ2idGiSomYga3jzWkxe17LO/view?usp=drivesdk" target="_blank" class="btn"> Abrir Arquivo Completo no Google Drive</a>
+      </div>
+      <div class="notice"><strong>Crédito editorial:</strong> preserve os dados corretos da publicação, editora e comentarista conforme a revista. Identifique separadamente os comentários e materiais complementares organizados pelo Sopro no Deserto. A reprodução pública de texto e imagens deve respeitar as permissões e os direitos aplicáveis.</div>
+      <div id="lessonList"></div>
+      <details class="drawer"><summary>Modelo de cadastro de uma lição</summary><div class="inside"><p>Cadastre no objeto <code>LESSONS</code> do JavaScript o título, o texto efetivamente conferido, as referências bíblicas, os tópicos e os subtópicos. Evite completar lacunas da revista por suposição.</p><p>As imagens originais devem ser disponibilizadas pelo site de fabricação ou incorporadas aos arquivos do projeto com nomes e créditos conferidos.</p></div></details>
+    </section>
+
+    <section id="gavetas" class="card">
+      <div class="eyebrow">Camadas de aprofundamento</div><h2>Gavetas teológicas</h2>
+      <p>Modelo de gavetas expansíveis que podem ser associadas a cada tópico e subtópico.</p>
+      <div id="drawerDemo"></div>
+    </section>
+
+    <section id="fontes" class="card">
+      <div class="eyebrow">Metodologia</div><h2>Fontes, citações e rigor</h2>
+      <div class="drawer"><details open><summary>1. Dado textual</summary><div class="inside">O que a passagem bíblica ou o documento consultado efetivamente afirma. Identifique tradução, referência e, quando necessário, variante textual.</div></details></div>
+      <div class="drawer"><details><summary>2. Contexto e evidência</summary><div class="inside">Dados linguísticos, literários, históricos e documentais, com fontes identificáveis.</div></details></div>
+      <div class="drawer"><details><summary>3. Inferência teológica</summary><div class="inside">Conclusão construída a partir das evidências. Explique a ligação lógica e não a apresente como citação direta do texto.</div></details></div>
+      <div class="drawer"><details><summary>4. Questões em debate</summary><div class="inside">Apresente as principais interpretações concorrentes, seus argumentos e limites. Diga quando a evidência disponível não permite conclusão segura.</div></details></div>
+      <h3>Regras para as fontes</h3>
+      <ul class="source-list"><li>Priorizar fontes primárias, universidades, periódicos científicos, editoras acadêmicas e repositórios de acesso aberto.</li><li>Não inventar autores, citações, páginas, edições, datas ou links.</li><li>Distinguir citação literal, paráfrase, inferência e síntese do aplicativo.</li><li>Quando o texto integral de uma obra não estiver acessível, declarar essa limitação.</li><li>Respeitar licenças, direitos autorais, privacidade e limites dos serviços consultados.</li></ul>
+    </section>
+
+    <section id="config" class="card">
+      <div class="eyebrow">Integração técnica</div><h2>Configurar serviço externo</h2>
+      <p>Informe o endereço do seu backend, se já tiver um. A URL fica guardada apenas nesta sessão; este protótipo não armazena chaves secretas.</p>
+      <label for="endpoint"><strong>URL do endpoint de pesquisa</strong></label>
+      <input id="endpoint" class="field" type="url" placeholder="https://seu-servidor.example/api/pesquisa">
+      <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:10px"><button class="btn" id="saveEndpoint" type="button">Usar nesta sessão</button><button class="btn secondary" id="forgetEndpoint" type="button">Remover</button></div>
+      <div id="configStatus" class="status hidden" role="status" style="margin-top:12px"></div>
+      <h3>Contrato esperado do backend</h3>
+      <p>O frontend envia uma requisição <code>POST</code> em JSON com <code>query</code>, <code>category</code>, <code>depth</code>, <code>mode</code> e <code>context</code>. O backend deve responder JSON com <code>answer</code> e, opcionalmente, <code>sources</code> — uma lista de objetos com <code>title</code>, <code>url</code>, <code>author</code> e <code>publishedAt</code>.</p>
+      <p class="small muted">Configure CORS, autenticação, limites de uso e validação de entradas no servidor. Não insira API keys de provedores neste HTML.</p>
+    </section>
+  </main>
+</div>
+<footer class="shell footer"><strong>Sopro no Deserto</strong> · App-book interativo · Estrutura demonstrativa pronta para receber conteúdo verificado e integrações autorizadas.<br>O conteúdo editorial da revista e os comentários complementares devem permanecer identificáveis separadamente.</footer>
+
+<script>
+"use strict";
+/* Preencha apenas com conteúdo conferido e autorizado.
+   Estrutura prevista:
+   { id, title, lesson, section, text, category, refs, keywords, sources }
+*/
+const LESSONS = [
+  /* Exemplo de estrutura, sem conteúdo editorial inventado:
+  {id:"licao-01", title:"Título conforme a revista", lesson:"Lição 1", section:"Introdução",
+   text:"Inserir aqui texto conferido e autorizado.", category:"Revista",
+   refs:["Atos 1:8"], keywords:["missão","igreja"], sources:[]}
+  */
+];
+const DRAWERS = [
+  ["Explicação detalhada","Desenvolvimento claro e aprofundado, seguindo a ordem da revista e separando o comentário complementar."],
+  ["Gaveta exegética","Contexto literário, histórico, lexical e gramatical; hebraico, aramaico ou grego quando relevante."],
+  ["Gaveta hermenêutica","Princípios de interpretação, sentido no contexto e relação com o conjunto das Escrituras."],
+  ["Referências bíblicas cruzadas","Passagens relacionadas, explicando a conexão e evitando associações superficiais."],
+  ["Gaveta teológica","Relações doutrinárias, tradições interpretativas, argumentos e limites das conclusões."],
+  ["Gaveta devocional e prática","Reflexão, aplicações, perguntas para discussão, prática cristã e oração."],
+  ["Metadados e fontes","Referências bíblicas, palavras-chave, autoria, seção, bibliografia e links verificáveis."]
+];
+let selectedCategory = "Tudo";
+let endpointForSession = "";
+const $ = id => document.getElementById(id);
+const esc = value => String(value ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+function showStatus(el, message, type="") { el.className = "status" + (type ? " " + type : ""); el.textContent = message; el.classList.remove("hidden"); }
+function hideStatus(el) { el.classList.add("hidden"); }
+function renderLessons() {
+  const root = $("lessonList");
+  if (!LESSONS.length) {
+    root.innerHTML = '<div class="result"><h3>Nenhuma lição cadastrada ainda</h3><p class="muted small">Adicione o conteúdo verificado ao objeto <code>LESSONS</code> no script deste arquivo para ativar a busca sobre a revista.</p></div>';
+    return;
+  }
+  root.innerHTML = LESSONS.map(item => `<article class="result"><div class="eyebrow">${esc(item.lesson || "Conteúdo")}</div><h3>${esc(item.title)}</h3><p>${esc(item.text)}</p><p class="muted small">${esc((item.refs||[]).join(" · "))}</p></article>`).join("");
+}
+function renderDrawers() {
+  $("drawerDemo").innerHTML = DRAWERS.map((d,i) => `<details class="drawer"><summary>${esc(d[0])}</summary><div class="inside"><p>${esc(d[1])}</p><p class="muted small">Conteúdo associado ao tópico atual será inserido após conferência das fontes.</p></div></details>`).join("");
+}
+function localSearch(query, category) {
+  const terms = query.toLocaleLowerCase("pt-BR").split(/\s+/).filter(Boolean);
+  return LESSONS.map(item => {
+    const corpus = [item.title,item.lesson,item.section,item.text,item.category,(item.refs||[]).join(" "),(item.keywords||[]).join(" ")].join(" ").toLocaleLowerCase("pt-BR");
+    const score = terms.reduce((n,t)=>n+(corpus.includes(t)?1:0),0);
+    return {item,score};
+  }).filter(x=>x.score>0 && (category==="Tudo" || x.item.category===category)).sort((a,b)=>b.score-a.score);
+}
+function renderLocalResults(matches) {
+  if (!matches.length) return '<div class="result"><h3>Nenhum resultado na biblioteca local</h3><p>Não há conteúdo correspondente cadastrado neste app-book. Experimente outros termos ou configure uma fonte externa. A ausência de resultado não significa que o tema não exista.</p></div>';
+  return matches.map(({item,score})=>`<article class="result"><div class="eyebrow">${esc(item.lesson||"Biblioteca local")} · relevância ${score}</div><h3>${esc(item.title)}</h3><p>${esc(item.text)}</p><p class="muted small">Referências: ${esc((item.refs||[]).join(" · ")||"Não cadastradas")}</p></article>`).join("");
+}
+async function externalSearch(payload) {
+  if (!endpointForSession) throw new Error("Nenhum endpoint externo configurado. Abra Configuração e informe a URL do backend.");
+  const response = await fetch(endpointForSession, {method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(payload)});
+  if (!response.ok) throw new Error("O serviço externo respondeu com HTTP " + response.status + ".");
+  return await response.json();
+}
+function renderExternal(data) {
+  let html = `<article class="result"><h3>Resposta da pesquisa</h3><div>${esc(data.answer || data.result || "O serviço não retornou o campo answer.")}</div></article>`;
+  if (Array.isArray(data.sources) && data.sources.length) {
+    html += '<article class="result"><h3>Fontes retornadas pelo serviço</h3><ul class="source-list">' + data.sources.map(s=>{
+      const safeUrl = (()=>{try{const u=new URL(s.url);return ["http:","https:"].includes(u.protocol)?u.href:""}catch{return ""}})();
+      return `<li>${safeUrl?`<a href="${esc(safeUrl)}" target="_blank" rel="noopener noreferrer">${esc(s.title||s.url)}</a>`:esc(s.title||"Fonte sem link verificado")} ${s.author?"— "+esc(s.author):""} ${s.publishedAt?"("+esc(s.publishedAt)+")":""}</li>`;
+    }).join("") + '</ul></article>';
+  }
+  return html;
+}
+$("categoryChips").addEventListener("click", event=>{
+  const button=event.target.closest("button[data-category]"); if(!button)return;
+  selectedCategory=button.dataset.category;
+  document.querySelectorAll("[data-category]").forEach(b=>b.setAttribute("aria-pressed",String(b===button)));
+});
+$("searchForm").addEventListener("submit", async event=>{
+  event.preventDefault();
+  const query=$("query").value.trim(), mode=$("mode").value, depth=$("depth").value;
+  const status=$("searchStatus"), results=$("results");
+  results.innerHTML="";
+  if(!query){showStatus(status,"Digite uma pergunta ou expressão para pesquisar.","error");return;}
+  const payload={query,category:selectedCategory,depth,mode,context:"Pesquisa iniciada no app-book Sopro no Deserto. Diferenciar texto-fonte, evidência, inferência e debate; fornecer fontes verificáveis; não inventar citações."};
+  if(mode==="local" || mode==="both") {
+    const matches=localSearch(query,selectedCategory);
+    results.innerHTML='<h3>Resultados da biblioteca local</h3>'+renderLocalResults(matches);
+  }
+  if(mode==="external" || mode==="both") {
+    try {
+      showStatus(status,"Consultando o serviço externo configurado…");
+      const data=await externalSearch(payload);
+      results.innerHTML += '<h3>Pesquisa externa</h3>'+renderExternal(data);
+      showStatus(status,"Consulta externa concluída. Confira as fontes e os limites indicados pelo serviço.","good");
+    } catch(error) {
+      showStatus(status,error.message+" A busca local, quando selecionada, continua disponível.","error");
+    }
+  } else {
+    showStatus(status,LESSONS.length ? "Pesquisa local concluída." : "A busca local está pronta, mas ainda não há lições cadastradas. Insira conteúdo verificado no objeto LESSONS.","");
+  }
+});
+$("clearSearch").addEventListener("click",()=>{$("query").value="";$("results").innerHTML="";hideStatus($("searchStatus"));});
+$("saveEndpoint").addEventListener("click",()=>{
+  const value=$("endpoint").value.trim();
+  try {
+    const u=new URL(value);
+    if(!["https:","http:"].includes(u.protocol)) throw new Error();
+    endpointForSession=u.href;
+    showStatus($("configStatus"),"Endpoint definido para esta sessão. Faça uma consulta de teste; a conexão só será confirmada quando o servidor responder.","good");
+  } catch {
+    endpointForSession="";
+    showStatus($("configStatus"),"Informe uma URL HTTP ou HTTPS válida do seu backend.","error");
+  }
+});
+$("forgetEndpoint").addEventListener("click",()=>{endpointForSession="";$("endpoint").value="";showStatus($("configStatus"),"Endpoint removido desta sessão.");});
+document.querySelectorAll(".navbtn").forEach(button=>button.addEventListener("click",()=>{
+  document.querySelectorAll(".navbtn").forEach(b=>b.classList.toggle("active",b===button));
+  const target=$(button.dataset.target); if(target)target.scrollIntoView({behavior:"smooth",block:"start"});
+}));
+renderLessons();renderDrawers();
+</script>
+</body>
+</html>
